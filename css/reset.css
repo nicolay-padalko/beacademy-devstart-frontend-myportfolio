@@ -22,5 +22,7 @@ button {
 }
 
 body {
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
   background-color: var(--black-color);
 }

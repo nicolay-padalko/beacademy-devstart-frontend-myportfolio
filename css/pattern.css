@@ -6,17 +6,44 @@
   --semi-black: #1e1e1e;
   --white-color: #ffffff;
 }
-
-
 .container {
   width: 100%;
   max-width: 1246px;
   margin: 0 auto;
   padding: 0rem 1.5rem;
 }
-
-/* Grid fluid 100% */
 .container-fluid {
   width: 100%;
-  padding: 0px 18px;
+  padding: 0rem 1.8rem;
+}
+
+h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+  margin-top: 2rem;
+}
+
+h2 span {
+  color: var(--primary-color);
+}
+.btn-primary {
+  border-radius: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: var(--black-color);
+  background-color: var(--primary-color);
+  padding: 1rem 1.6rem;
+}
+
+.btn-primary .empty {
+
+}
+
+.menu-item {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 700;
 }
