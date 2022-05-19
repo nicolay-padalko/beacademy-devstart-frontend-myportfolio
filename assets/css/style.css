@@ -1,0 +1,95 @@
+/* Header */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4rem 0rem;
+  z-index: 1200;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav .menu li {
+  margin-right: 4.8rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+header .container nav .menu-social {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 4rem;
+}
+
+header .container nav .menu-social img {
+  padding: 1rem;
+}
+
+/* Section */
+
+.s-hero {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 72rem;
+  height: 42rem;
+  color: var(--white-color);
+  background-color: #1e1e1e;
+}
+.s-hero h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 6.4rem;
+
+}
+.s-hero h1 span{
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 6.4rem;
+  color: var(--primary-color);
+}
+
+s-hero p objetivo {
+  margin-top: 4rem;
+  color: var(--white-color);
+  font-size: 20.4rem;
+}
+
+
+
+.s-hero .container .web {
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+
+
+
