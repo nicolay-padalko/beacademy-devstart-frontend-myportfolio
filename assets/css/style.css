@@ -176,6 +176,46 @@ header .container nav .menu-social img {
   line-height: 3.9rem;
 }
 
+/* quem sou */
+
+.s-about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-about .container .titulo-quem h3 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+}
+
+.s-about .container .titulo-quem p {
+  padding-right: 10rem;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--white-color);
+}
+.s-about .container .titulo-quem ul {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: left;
+}
+.s-about .container .titulo-quem ul li {
+  padding: 1.4rem;
+}
+
+
+.s-about .container .foto {
+  width: 120rem;
+}
+
+
+
 
 
 
