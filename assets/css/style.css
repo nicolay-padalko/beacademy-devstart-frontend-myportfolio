@@ -46,6 +46,10 @@ header .container nav .menu-social img {
 /* Section */
 
 .s-hero {
+  background: url(../img/s-hero-bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin-top: 20rem;
   display: flex;
   justify-content: space-between;
@@ -59,15 +63,24 @@ header .container nav .menu-social img {
   width: 72rem;
   height: 42rem;
   color: var(--white-color);
-  background-color: #1e1e1e;
+  background-color: rgb(16, 15, 42, 0.75);
 }
+
+.s-hero .container .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .s-hero h1 {
   text-align: center;
   font-family: "Inter";
   font-weight: 900;
   font-size: 6.4rem;
-
+  margin-bottom: 2.2rem;
 }
+
 .s-hero h1 span{
   font-family: "Inter";
   font-weight: 900;
@@ -75,20 +88,95 @@ header .container nav .menu-social img {
   color: var(--primary-color);
 }
 
-s-hero p objetivo {
-  margin-top: 4rem;
-  color: var(--white-color);
-  font-size: 20.4rem;
+.s-hero h2 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 3.6rem;
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
 }
 
-
+.s-hero .container .titulo p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: var(--primary-color);
+}
 
 .s-hero .container .web {
+  margin-top: 2.6rem;
+  display: flex;
+}
 
+/* Sucesso */
+
+.s-success .container {
+  margin-top: 20rem;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
 }
+
+.s-success .container .titulo-success .tag {
+  padding-left: 0.8rem;
+  padding-top: 0.5rem;
+  align-items: center;
+  width: 15.2rem;
+  height: 3rem;
+  border-radius: 1.4rem;
+  background-color: var(--white-color);
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+
+}
+
+.s-success .titulo-success h2 span{
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+}
+
+.s-success .container .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-success .container .cards .card {
+  background-color: var(--white-color);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 3rem;
+  width: 28rem;
+  height: 30rem;
+  border-radius: 0.8rem;
+}
+
+.s-success .container .cards .card.active {
+  background-color: var(--primary-color);
+}
+
+.s-success .container .cards .titulo h3 {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+}
+
+.s-success .container .cards .titulo p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+}
+
+
 
 
 
