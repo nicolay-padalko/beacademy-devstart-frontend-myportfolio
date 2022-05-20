@@ -1,19 +1,92 @@
 @media (max-width: 1200px) {
 
+  .s-success .container .cards {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
 }
 
 @media (max-width: 991px) {
-
+  .s-contact .container {
+    flex-direction: column;
+    padding: 3rem;
+  }
+  .s-contact .container .form-contact {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
+  header .container nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .container nav .menu {
+    padding: 2rem;
+
+  }
+  header .container nav .menu li {
+    align-items: center;
+    margin-right: 0rem;
+
+  }
+  .s-hero {
+    margin-top: 22rem;
+  }
+  .s-hero .container{
+    margin-top: 8rem;
+
+  }
+  .s-success .container {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .s-about .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+  }
+  .s-about .container .foto img {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .s-cases .container .case{
+    flex-direction: column;
+  }
 
 }
 
 @media (max-width: 600px) {
+  .s-hero {
+    margin-top: 8rem;
+  }
+  .s-hero .container {
+    margin-top: 8rem;
 
+  }
+  .s-contact .container {
+    flex-direction: column;
+    padding: 5rem;
+    padding: 5rem;
+  }
+  .s-contact .container .form-contact {
+    margin-top: 3rem;
+    width: 90%;
+  }
+
+  textarea {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
+
+
+
 
 }

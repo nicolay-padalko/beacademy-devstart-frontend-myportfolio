@@ -63,8 +63,8 @@ header .container nav .menu-social img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 72rem;
-  height: 52rem;
+  width: 80%;
+  height: auto;
   color: var(--white-color);
   background-color: rgb(16, 15, 42, 0.85);
 }
@@ -125,7 +125,7 @@ header .container nav .menu-social img {
 /* Sucesso */
 
 .s-success .container {
-  margin-top: 20rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -224,8 +224,9 @@ header .container nav .menu-social img {
 }
 
 
-.s-about .container .foto {
-  width: 120rem;
+.s-about .container .foto-resp {
+  width: 100%;
+  height: auto;
 }
 
 /* cases */
