@@ -52,7 +52,7 @@ header .container nav .menu-social img {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 20rem;
+  margin-top: 16rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,9 +63,9 @@ header .container nav .menu-social img {
   align-items: center;
   justify-content: center;
   width: 72rem;
-  height: 42rem;
+  height: 52rem;
   color: var(--white-color);
-  background-color: rgb(16, 15, 42, 0.75);
+  background-color: rgb(16, 15, 42, 0.85);
 }
 
 .s-hero .container .titulo {
@@ -109,6 +109,7 @@ header .container nav .menu-social img {
 
 .s-hero .container .web {
   margin-top: 2.6rem;
+  margin-bottom: 3rem;
   display: flex;
 }
 
@@ -226,6 +227,10 @@ header .container nav .menu-social img {
 
 /* cases */
 
+.s-cases {
+  padding-bottom: 6rem;
+}
+
 .s-cases .container .titulo {
   margin-top: 7rem;
   display: flex;
@@ -260,6 +265,66 @@ header .container nav .menu-social img {
 .s-cases .container .cases img:hover {
   transform: translateY(-4%);
 }
+
+/* contato */
+
+.s-contact {
+  padding-bottom: 4rem;
+}
+
+.s-contact .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.s-contact .container .titulo h3 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+}
+
+.s-contact .container .titulo h3 span {
+  color: var(--primary-color);
+}
+
+.s-contact .container .titulo .tag {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  width: 14rem;
+  height: 3rem;
+  background-color: var(--white-color);
+  border-radius: 2rem;
+  padding-left: 2rem;
+  padding-top: 0.6rem;
+}
+
+.s-contact .container .contact .entrada {
+  padding: 0.3rem;
+  margin-bottom: 1.8rem;
+  border: 0.2rem;
+  background-color: var(--primary-color);
+  border-radius: 0.6rem;
+
+}
+
+.s-contact .container .contact textarea {
+  border: transparent;
+  background-color: #20204d;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+.s-contact .enviar .container {
+  justify-content: flex-end;
+}
+
 
 
 

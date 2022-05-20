@@ -38,7 +38,10 @@ h2 span {
   padding: 1rem 1.6rem;
 }
 
-.btn-primary .empty {
+.btn-primary.transparent {
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: transparent;
 
 }
 
