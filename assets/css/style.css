@@ -43,6 +43,8 @@ header .container nav .menu-social img {
   padding: 1rem;
 }
 
+
+
 /* Section */
 
 .s-hero {
@@ -108,6 +110,14 @@ header .container nav .menu-social img {
 .s-hero .container .web {
   margin-top: 2.6rem;
   display: flex;
+}
+
+.s-hero .container img{
+  transition: all 0.4s;
+}
+
+.s-hero .container img:hover {
+  transform: translateY(-8%);
 }
 
 /* Sucesso */
@@ -213,6 +223,45 @@ header .container nav .menu-social img {
 .s-about .container .foto {
   width: 120rem;
 }
+
+/* cases */
+
+.s-cases .container .titulo {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-cases .container .titulo h3 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+}
+
+.s-cases .container .titulo h3 span {
+  color: var(--primary-color);
+}
+
+.s-cases .container .cases {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.s-cases .container .cases img {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.s-cases .container .cases img:hover {
+  transform: translateY(-4%);
+}
+
+
 
 
 
