@@ -1,9 +1,9 @@
 :root {
   --primary-color: #217ce5;
   --second-color: #5390ec;
-  --black-color: #100f2a;
+  --azul-fundo: #100f2a;
   --black-color-medium: #0c0c0c;
-  --semi-black: #1e1e1e;
+  --semi-azul: #20204d;
   --white-color: #ffffff;
 }
 .container {
@@ -33,7 +33,7 @@ h2 span {
   border-radius: 2.4rem;
   font-weight: 700;
   line-height: 2.4rem;
-  color: var(--black-color);
+  color: var(--azul-fundo);
   background-color: var(--primary-color);
   padding: 1rem 1.6rem;
 }
